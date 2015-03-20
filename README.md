@@ -10,7 +10,7 @@ This small Sinatra app implements a basic webservice for testing your Layer clie
 curl -X "POST" "http://your-new-app.herokuapp.com/hello/layer" \
   -d "user_id=1" \
   -d "nonce=2"
-``
+```
 
 This will be your response:
 

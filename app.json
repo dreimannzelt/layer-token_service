@@ -3,5 +3,19 @@
   "description": "A small webservice for testing a layer client",
   "repository": "https://github.com/dreimannzelt/layer-token_service",
   "keywords": ["ruby", "layer", "sinatra"],
-  "logo": "http://s.3mz.lt/logos/icon.png"
+  "logo": "http://s.3mz.lt/logos/icon.png",
+  "env": {
+    "LAYER_PROVIDER_ID": {
+      "description": "Provider ID of your Layer project",
+      "required": true
+    },
+    "LAYER_KEY_ID": {
+      "description": "Key ID for your created private key",
+      "required": true
+    },
+    "LAYER_PRIVATE_KEY": {
+      "description": "The generated RSA private key with line breaks replaced by \\n",
+      "required": true
+    }
+  }
 }

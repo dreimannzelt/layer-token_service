@@ -14,7 +14,7 @@
       "required": true
     },
     "LAYER_PRIVATE_KEY": {
-      "description": "The generated RSA private key with line breaks replaced by \\n",
+      "description": "The generated RSA private key with. Paste with multilines!",
       "required": true
     }
   }

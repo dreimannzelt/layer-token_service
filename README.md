@@ -4,6 +4,15 @@ This small Sinatra app implements a basic webservice for testing your Layer clie
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+
+## Configuration
+
+Set the following ENV variables from your Layer config:
+
+```
+heroku config:set LAYER_PROVIDER_ID=provider_id LAYER_KEY_ID=key_id LAYER_PRIVATE_KEY="some real long and multiline RSA super key"
+```
+
 ## Usage
 
 ```bash

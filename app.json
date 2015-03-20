@@ -1,0 +1,7 @@
+{
+  "name": "Layer TokenService",
+  "description": "A small webservice for testing a layer client",
+  "repository": "https://github.com/dreimannzelt/layer-token_service",
+  "keywords": ["ruby", "layer", "sinatra"],
+  "logo": "http://s.3mz.lt/logos/icon.png"
+}

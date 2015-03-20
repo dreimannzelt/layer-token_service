@@ -7,10 +7,18 @@ This small Sinatra app implements a basic webservice for testing your Layer clie
 
 ## Configuration
 
-Set the following ENV variables from your Layer config:
+If you click on the Heroku Deploy button all mandatory variables you need will be shown. You can set these variables via command line afterwards:
+
+```bash
+heroku config:set LAYER_PROVIDER_ID=provider_id LAYER_KEY_ID=key_id LAYER_PRIVATE_KEY="some real long and multiline RSA super key"
+```
+
+For all other deployment methods (or testing it locally) just set the appropriate variables
 
 ```
-heroku config:set LAYER_PROVIDER_ID=provider_id LAYER_KEY_ID=key_id LAYER_PRIVATE_KEY="some real long and multiline RSA super key"
+LAYER_PROVIDER_ID=provider_id 
+LAYER_KEY_ID=key_id 
+LAYER_PRIVATE_KEY="some real long and multiline RSA super key"
 ```
 
 ## Usage

@@ -2,8 +2,8 @@ GEM
   remote: http://rubygems.org/
   specs:
     backports (3.6.6)
-    jwt (1.5.1)
-    layer-identity_token (0.1.0)
+    jwt (1.5.6)
+    layer-identity_token (0.2.0)
       jwt (~> 1.4, >= 1.4.1)
     multi_json (1.11.2)
     puma (2.13.4)

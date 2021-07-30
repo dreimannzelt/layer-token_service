@@ -6,7 +6,9 @@ GEM
     layer-identity_token (0.1.0)
       jwt (~> 1.4, >= 1.4.1)
     multi_json (1.11.2)
-    puma (2.13.4)
+    nio4r (2.5.7)
+    puma (5.4.0)
+      nio4r (~> 2.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
